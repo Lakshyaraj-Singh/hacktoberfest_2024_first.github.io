@@ -11,7 +11,31 @@ body {
     margin: 0; /* Reset margins */
     padding: 0; /* Reset padding */
 }
+.darkbutton{
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 10px 25px;
+    background-color: #e7e7e7;
+    border: 1px solid rgb(0, 0, 0);
+    transition: 0.2s;
 
+
+
+    
+}
+.whitebutton{
+
+    border-radius: 25px;
+    padding: 10px 25px;
+    background-color: #0b0b0b;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.darkbutton:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+}
 a {
     cursor: pointer;
     transition: color 200ms ease;
@@ -48,6 +72,7 @@ h6 span {
     position: relative;
     width: 100%;
     display: block;
+    
 }
 
 .full-height {
